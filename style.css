@@ -1,19 +1,50 @@
-.bordure {
-        border: 3px solid black;
+.rouge {
+        color: red;
 }
-.bleu {
-        color: blue;
-}
-.padds {
-        padding: 10px;
-}
-.margin {
-        margin: 20px;
+.borderline {
+        border: solid black 4px;
 }
 
-.largeur {
-        width: 200px;
+.espace {
+        margin: 20px;
 }
-.inline {
+.space {
+        margin: 10px;
+}
+.color_background {
+        background: rgb(0, 107, 128);
+}
+.flex_row{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 50px;
+}
+ul{
+        gap:30px;
+}
+nav{
+        flex:3;
+}
+.color_title{ 
         color: red;
+
+
+}
+.paddi{
+        padding: 20px;
+}
+.marg{
+        margin: 20px;
+}
+.bck_ground{
+        background-image: url("NBA-Mock-Draft-FTR-(2026).jpg" );
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
+}
+.blanco{
+        color: white;
 }
