@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>formulaire</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -10,16 +11,62 @@
         <header>
         <h1>Formulaire à remplir pour l'equipe qui drafte.</h1>
         </header>
+        <div class="marg">
         <form action="treatment_back.php" method="post">
             <div class="paddi">
             <label for="name">Nom & Prénom du représentant</label>
-            <input type="text" name="name" id="name" required>
+            <input type="text" name="name" id="name"
+            placeholder="entrez vos informations"
+             required>
+
             </div>
-            <div class="marg">
+            <div>
                 <h2 class="color_title">Equipe représentée:</h3>
-               <label for="name" >Entrer votre Equipe</label>
-               <input type="text" name="name" id="name" required> 
+               <label for="equipe" >Entrer votre Equipe</label>
+               <input type="text" name="equipe" id="equipe" placeholder="entrez votre Equipe" required> 
+            </div><br>
+            <div>
+                <label for="date_team"> date de création de la franchise </label>
+                <input type="date" name="date" id="date_team" required>
+            </div><br>
+            <div>
+                <label for="phone">Numéro de Téléphone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="phone number" required>
             </div>
+            <div>
+                <h3 class="color_title">séléctionner votre conférence:</h3>
+                <p>
+                <label for="conference">conférence ouest</label>
+                <input type="radio" name="conference" id="conference">
+                </p>
+                <p>
+                    <label for="conference">conférence est</label>
+                    <input type="radio" name="conference" id="conference">
+                </p>
+            </div>
+
+            <div>
+                <h2 class="color_selection">Sélectionner un jouer:</h2>
+                <label for="choice">Select</label>
+                <select name="selection" id="choice">
+                    <option value="1">Victor Wembanyama</option>
+                    <option value="2">Dylan Harper</option>
+                    <option value="3">Cooper Flag</option>
+                    <option value="4">Scoot henderson</option>
+                    <option value="5">Stephon castle</option>
+                    <option value="6">Carter Bryant</option>
+                </select>
+            </div><br>
+           <button class="font-raises">envoyer</button> 
         </form>
+        </div><br>
+        <footer>
+         <address  class="font-raise">
+            <h2>Contact:</h2>
+            <p>adresse: rue de la nba 162, 4000 Liège.</p>
+            <p>e-mail: <a class="color_selection" href="mailto:nbadraftie12@gmail.com">nbadraftie12@gmail.com</a></p>
+            <p>tel: <a class="color_selection" href="tel:049673248">049673248</a></p>
+         </address>
+        </footer>
     </body>
 </html>

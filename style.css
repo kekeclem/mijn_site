@@ -31,6 +31,9 @@ nav{
 
 
 }
+.color_selection{
+        color: green;
+}
 .paddi{
         padding: 20px;
 }
@@ -48,3 +51,143 @@ nav{
 .blanco{
         color: white;
 }
+.draft-flex{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+}
+.draft-text {
+        width: 65%;
+}
+.draft-article {
+        width: 300px;
+        margin-left: 300px
+}
+.draft-article img {
+        width: 250px;
+}
+.font-raise{
+        font-size: 24px;
+}
+
+.font-raises{
+        font-size: 20px;
+}
+.flex-video{
+        position: relative;
+        left: -250px;
+        top: 550px;
+
+}
+.title-color{
+        color: rgb(0, 77, 128);
+        margin: 30px;
+        padding: 30px;
+}
+.flex-players{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+}
+.flex-players li{
+        width: 220px;
+}
+* {
+        box-sizing: border-box;
+}
+img,iframe {
+        max-width: 100%;
+}
+body{
+        overflow-x:hidden;
+}
+@media screen and (max-width:1024px){
+        .draft-flex{
+                flex-direction: column;
+        }
+        .draft-text {
+                width:100%;
+        }
+        .draft-article{
+                width:100%;
+        }
+        .flex-video{
+                position:static;
+                width:100%;
+                height: 300px;
+        }
+        .flex-players {
+                flex-wrap:wrap;
+                justify-content:center;
+        }
+}
+@media screen and (max-width:600px){
+        body{
+                font-size: 16px;
+        }
+        .flex-row{
+                flex-direction:column;
+                align-items: center;
+                padding-right: 0;
+        }
+        nav ul{
+                flex-direction: column;
+                gap:10px;
+                align-items:center;
+                
+        }
+        nav .flex_row{
+                flex-direction:column;
+                gap: 10px;
+                align-items: flex-start;
+        }
+        nav{
+                width: 100%
+        }
+        .draft-flex{
+                flex-direction: column;
+                gap:20px;
+        }
+        .draft-text{
+                width: 100%;
+        }
+        .draft-article{
+                width: 100%;
+                margin-left: 0;
+        }
+        .draft-article img{
+                width:100%;
+        }
+        .flex-video{
+                position:static;
+                width: 100%;
+                height: 220px;
+        }
+        .flex-players{
+                flex-direction: column;
+                align-items: center;
+                padding-left: 0;
+        }
+        .flex-players li{
+                width:100%;
+                text-align: center;
+
+        }
+        img{
+                max-width:100%;
+                height: auto;
+        }
+        header.flex_row{
+                flex-direction: column;
+                align-items: center;
+                padding-right: 0;
+        }
+        header img{
+                width: 150px;
+                max-width: 100%
+        }
+
+}
+
+
