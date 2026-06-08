@@ -41,7 +41,7 @@ nav{
         margin: 20px;
 }
 .bck_ground{
-        background-image: url("NBA-Mock-Draft-FTR-(2026).jpg" );
+        background-image: url(bltd5ac92bc989a1d4c-2025_NBA_Draft_Graphic.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -187,7 +187,4 @@ body{
                 width: 150px;
                 max-width: 100%
         }
-
 }
-
-
